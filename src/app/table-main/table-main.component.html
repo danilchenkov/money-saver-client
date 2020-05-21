@@ -1,0 +1,11 @@
+<div class="component-table-main">
+  <div class="component-table-main__header">
+    <div *ngFor="let header of columnsHeaders" class="cel header-cel">{{header.title}}</div>
+  </div>
+  <div *ngFor="let date of currentDateRow" class="component-table-main__row">
+    <div *ngFor="let header of columnsHeaders">
+      <div *ngIf="header.title === 'Date'" class="cel header-cel">{{date}}</div>
+      <div *ngIf="header.title !== 'Date'" class="cel header-cel"></div>
+    </div>
+  </div>
+</div>

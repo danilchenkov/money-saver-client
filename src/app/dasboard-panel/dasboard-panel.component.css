@@ -1,0 +1,9 @@
+.component-dasboard-panel { 
+  height: 100%;
+  padding: 24px;
+}
+
+.component-dasboard-panel__title {
+  font-size: 18px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,17 @@
+.layout-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 64px 1fr 64px;
+  gap: 1px 1px;
+  grid-template-areas: "top-pannel-cell top-pannel-cell" "action-panel-cell dashboard-cell" "bottom-pannel-cell bottom-pannel-cell";
+
+  min-height: 100vh;
+}
+
+.dashboard-cell { grid-area: dashboard-cell; }
+
+.top-pannel-cell { grid-area: top-pannel-cell; }
+
+.action-panel-cell { grid-area: action-panel-cell; }
+
+.bottom-pannel-cell { grid-area: bottom-pannel-cell; }

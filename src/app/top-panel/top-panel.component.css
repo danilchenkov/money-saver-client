@@ -1,0 +1,27 @@
+.component-top-panel {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
+  position: relative;
+}
+
+.component-top-panel:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 4px;
+  background: linear-gradient(180deg,rgba(9,30,66,0.13) 0,rgba(9,30,66,0.13) 1px,rgba(9,30,66,0.08) 1px,rgba(9,30,66,0) 4px);
+}
+
+.component-top-panel__logo-text {
+  color: #0fb17a;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.component-top-panel__logo-link {
+  text-decoration: none;
+}

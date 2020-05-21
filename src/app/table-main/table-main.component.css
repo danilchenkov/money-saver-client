@@ -1,0 +1,29 @@
+.component-table-main {
+  border: 1px solid #a7a7a7;
+}
+
+.component-table-main__header {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid #a7a7a7;
+}
+
+.component-table-main__row {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.cel {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 22px;
+  width: 80px;
+  border-left: 1px solid #a7a7a7;
+  width: 80px;
+  padding: 2px;
+  overflow: hidden;
+  justify-content: center;
+}
+
